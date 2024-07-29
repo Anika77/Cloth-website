@@ -1,0 +1,187 @@
+ * {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+
+
+ }
+
+ body {
+     font-family: "Bodoni Moda SC", serif;
+     background-color: rgb(241, 241, 241);
+ }
+
+ /* navigation */
+ li,
+ a,
+ button {
+     font-weight: 500;
+     font-size: 15px;
+     color: #ffff;
+
+     text-decoration: none;
+ }
+
+ .nav_container {
+
+     background-color: azure;
+     height: 58px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 30px 20px;
+     background-color: #D0B8A8;
+ }
+
+ .logo {
+     margin-left: auto;
+     width: 160px;
+     cursor: pointer;
+
+ }
+
+ .nav {
+     display: flex;
+ }
+
+ .nav_link {
+     list-style: none;
+ }
+
+ .nav_link li {
+     display: inline-block;
+     padding: 0 20px;
+ }
+
+ .nav_link li a {
+     transition: all 0.3s ease 0s;
+ }
+
+ .nav_link li a:hover {
+     color: #9c6457;
+ }
+
+ button {
+
+     margin-top: 24px;
+     padding: 10px 39px;
+     color: #F8EDE3;
+     background-color: #8D493A;
+     border: none;
+     border-radius: 17px;
+     transition: all 0.3s ease 0s;
+ }
+
+ button:hover {
+     background-color: #9c6457;
+ }
+
+ /* hero-section */
+ .section {
+
+
+     height: 100vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 30px;
+
+
+ }
+
+ .text_cont {
+
+
+
+
+     width: 570px;
+     padding: 23px 23px;
+     color: black;
+
+ }
+
+ .text_cont h1 {
+     font-size: 50px;
+     text-transform: uppercase;
+     margin-bottom: 20px;
+
+ }
+
+ .text_cont p {
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 30px;
+     color: rgb(61, 61, 61);
+ }
+
+ .sec_section {
+     background-color: #8D493A;
+     padding: 30px;
+
+ }
+
+ /* sce-section */
+ .sec_section h2 {
+
+     font-weight: 100px;
+     font-size: 36px;
+     color: #F8EDE3;
+     text-align: center;
+
+ }
+
+ /* cards-section */
+ .thd_section {
+     text-align: center;
+     margin-top: 30px;
+     padding: 23px 70px;
+ }
+
+ .thd_section h2 {
+     margin-bottom: 30px;
+     font-size: 33px;
+
+ }
+
+ .col {
+
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     gap: 10px;
+
+
+ }
+
+ .left-img {
+     height: 353px;
+     width: 100%;
+ }
+
+ .btn {
+
+     margin-top: 10px;
+     padding: 6px 40px;
+     color: #F8EDE3;
+     background-color: #8D493A;
+     border: none;
+     border-radius: 13px;
+     transition: all 0.3s ease 0s;
+ }
+
+ .btn:hover {
+     background-color: #9c6457;
+ }
+
+ /* footer */
+ footer {
+     background: #000;
+     color: white;
+     padding: 10px 0;
+ }
+
+ footer p {
+     text-align: center;
+     font-size: 12px;
+
+ }
